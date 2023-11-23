@@ -1,0 +1,157 @@
+/* Resetting margins and paddings */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #161616;
+  }
+  
+  /* Ensuring that the body does not exceed the viewport dimensions */
+  body {
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  /* Setting the main container dimensions */
+  .container {
+    position: absolute;
+    width: 1080px;
+    height: 1920px;
+    background-color: #161616; /* Adjust color as needed */
+  }
+  
+  /* Adjusting the ribbon size */
+  .ribbon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.ibb.co/j8nNSgf/1mill-ribbon1080.png') no-repeat center center;
+    background-size: 100%; /* Scaling the image to 50% */
+  }
+  
+  /* DASC logo */
+  .dasc-logo {
+    position: absolute;
+    top: 10%; /* Adjust based on actual layout */
+    left: 5%; /* Adjust based on actual layout */
+    width: 244px;
+    height: auto; /* Maintain aspect ratio */
+    background: url('https://i.ibb.co/DfLcK90/DASC-STAMP-LOGO.png') no-repeat center center;
+    background-size: contain;
+  }
+  
+  /* stream-count text */
+  .stream-count {
+    position: absolute;
+    top: calc(50% - 500px); /* Adjust this value to position it just above the cover art box */
+    left: 145px; /* Keep left-aligned */
+    font: bold 55px Arial, sans-serif;
+    color: #EEEEEE;
+  }
+  
+  /* DASC certified text */
+  .dasc-certified {
+    position: absolute;
+    top: calc(50% - 540px); /* Adjust this value to position it above the one million streams text */
+    left: 145px; /* Keep left-aligned */
+    font: italic normal 35px Arial, sans-serif;
+    color: #EEEEEE;
+  }
+  
+  /* Rectangle box for cover art */
+  .rectangle {
+    position: absolute;
+    top: 50%; /* Center the box vertically */
+    left: 50%; /* Center the box horizontally */
+    transform: translate(-50%, -50%); /* Offset the transform */
+    width: 790px;
+    height: 790px;
+    background: #B1B1B1; /* Placeholder for cover art, replace with actual image */
+    border-radius: 27px;
+  }
+  
+  
+  /* Track title with dynamic scaling */
+  .track-title {
+    position: absolute;
+    bottom: 23%; /* Adjust based on actual layout */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Offset the transform */
+    font: bold 5vw Arial, sans-serif; /* Adjust vw for dynamic scaling */
+    -webkit-text-stroke: 1px #EEEEEE;
+    color: transparent;
+    text-align: center; /* Ensure text is centered if it wraps */
+    white-space: nowrap; /* Prevent line breaks */
+    overflow: hidden; /* Hide text that overflows */
+    max-width: 90%; /* Maximum width percentage of its container */
+  }
+  
+  /* Artist name */
+  .artist-name {
+    position: absolute;
+    bottom: 20%; /* Adjust so that it is below the track title */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Offset the transform */
+    font: bold 3vw Arial, sans-serif; /* Adjust vw for dynamic scaling */
+    color: #EEEEEE;
+    text-align: center; /* Ensure text is centered if it wraps */
+    max-width: 90%; /* Maximum width percentage of its container */
+  }
+  
+  /* Specific breakpoint for Track Title font-size adjustment */
+  @media (min-width: 1080px) {
+    .track-title {
+      font-size: 70px; /* Fixed font size for larger screens */
+    }
+    .artist-name {
+      font-size: 50px; /* Fixed font size for larger screens */
+    }
+  }
+  
+  /* ... other CSS styles ... */
+  
+  .certification-area {
+    position: absolute;
+    right: 60px; /* Padding from the right edge */
+    bottom: 60px; /* Padding from the bottom edge */
+    display: flex;
+    align-items: center; /* Align the text and icon vertically */
+  }
+  
+  .dasc-icon {
+    height: 30px; /* Adjust the size as needed */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between icon and text */
+  }
+  
+  .certification-text {
+    font-size: 45px; /* Small text size */
+    color: #EEEEEE;
+    font: bold 3vw Arial, sans-serif; /* Adjust vw for dynamic scaling */
+    text-align: right;
+  }
+  
+  /* ... other CSS styles ... */
+  
+  .top-right-icon {
+    position: absolute;
+    right: 40px; /* Padding from the right edge */
+    top: 40px; /* Padding from the top edge */
+    height: 80px; /* Adjust the size as needed */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
+  .top-right-icon img {
+    display: block; /* Remove any default inline spacing */
+    height: 100%; /* Icon height will fill the container height */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
+  
+  
+  
