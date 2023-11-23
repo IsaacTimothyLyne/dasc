@@ -1,0 +1,6 @@
+logo: https://i.ibb.co/rsgtsf6/DASC-ICON-W-HQ.png
+logo with gradient: https://i.ibb.co/f8005Jn/DASC-ICON-GRAD-HQ.png
+logo stamp: https://i.ibb.co/DfLcK90/DASC-STAMP-LOGO.png
+
+font: Arial, sans-serif;
+Ribbon stuff:  background: url('https://i.ibb.co/j8nNSgf/1mill-ribbon1080.png') no-repeat center center;
