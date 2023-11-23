@@ -1,0 +1,28 @@
+/* Modern footer styles */
+.modern-footer {
+  background-color: #303030; /* Background color matching the top bar */
+  color: white; /* Text color */
+  padding: 16px; /* Adjust padding as needed */
+  text-align: center;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow at the top */
+}
+
+.modern-footer .footer-content {
+  max-width: 1200px; /* Set the maximum width for the content */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.modern-footer p {
+  font-size: 14px; /* Adjust font size as needed */
+}
+
+/* Optionally, style links in the footer */
+.modern-footer a {
+  color: white; /* Link text color */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.modern-footer a:hover {
+  color: #1976d2; /* Link text color on hover (matching top bar link color) */
+}

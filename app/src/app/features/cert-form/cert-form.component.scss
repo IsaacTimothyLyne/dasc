@@ -1,0 +1,24 @@
+.center-vertically {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.content {
+  width: 60%;
+  text-align: center;
+}
+.logo{
+    width: 100px;
+}
+.search-bar {
+  width: 100%; /* Take up the full width within the container */
+  margin-bottom: 16px; /* Add spacing between input and button */
+}
+
+button {
+  width: 100px; /* Adjust the width of the button as needed */
+  background-image: linear-gradient(to right, #ed6f9f, #ec8b6b);
+  border:none !important;
+}

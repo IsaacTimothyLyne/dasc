@@ -1,0 +1,12 @@
+<div class="center-vertically">
+  <div class="content">
+    <img src="../../../assets/favicon/android-chrome-192x192.png" class="logo">
+    <h1>Find your song's certification!</h1>
+    <mat-form-field class="search-bar">
+      <mat-label>ISRC Code...</mat-label>
+      <input matInput [(ngModel)]="searchText"/>
+    </mat-form-field>
+
+    <button mat-stroked-button (click)="onSearch()">Search</button>
+  </div>
+</div>
